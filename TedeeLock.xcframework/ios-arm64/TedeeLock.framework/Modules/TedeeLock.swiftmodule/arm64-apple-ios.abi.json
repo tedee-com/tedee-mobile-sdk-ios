@@ -1,0 +1,3021 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "TedeeLock"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "TedeeLock"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoSwift",
+        "printedName": "CryptoSwift",
+        "declKind": "Import",
+        "moduleName": "TedeeLock"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoSwift",
+        "printedName": "CryptoSwift",
+        "declKind": "Import",
+        "moduleName": "TedeeLock"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "TedeeLock"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "TedeeLock"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "TedeeLock"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "TedeeLock"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TedeeCertificate",
+        "printedName": "TedeeCertificate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "certificate",
+            "printedName": "certificate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9TedeeLock0A11CertificateV11certificateSSvp",
+            "mangledName": "$s9TedeeLock0A11CertificateV11certificateSSvp",
+            "moduleName": "TedeeLock",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9TedeeLock0A11CertificateV11certificateSSvg",
+                "mangledName": "$s9TedeeLock0A11CertificateV11certificateSSvg",
+                "moduleName": "TedeeLock",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expirationDate",
+            "printedName": "expirationDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9TedeeLock0A11CertificateV14expirationDate10Foundation0E0Vvp",
+            "mangledName": "$s9TedeeLock0A11CertificateV14expirationDate10Foundation0E0Vvp",
+            "moduleName": "TedeeLock",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9TedeeLock0A11CertificateV14expirationDate10Foundation0E0Vvg",
+                "mangledName": "$s9TedeeLock0A11CertificateV14expirationDate10Foundation0E0Vvg",
+                "moduleName": "TedeeLock",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "devicePublicKey",
+            "printedName": "devicePublicKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9TedeeLock0A11CertificateV15devicePublicKeySSvp",
+            "mangledName": "$s9TedeeLock0A11CertificateV15devicePublicKeySSvp",
+            "moduleName": "TedeeLock",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9TedeeLock0A11CertificateV15devicePublicKeySSvg",
+                "mangledName": "$s9TedeeLock0A11CertificateV15devicePublicKeySSvg",
+                "moduleName": "TedeeLock",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mobilePublicKey",
+            "printedName": "mobilePublicKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9TedeeLock0A11CertificateV15mobilePublicKeySSvp",
+            "mangledName": "$s9TedeeLock0A11CertificateV15mobilePublicKeySSvp",
+            "moduleName": "TedeeLock",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9TedeeLock0A11CertificateV15mobilePublicKeySSvg",
+                "mangledName": "$s9TedeeLock0A11CertificateV15mobilePublicKeySSvg",
+                "moduleName": "TedeeLock",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(certificate:expirationDate:devicePublicKey:mobilePublicKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TedeeCertificate",
+                "printedName": "TedeeLock.TedeeCertificate",
+                "usr": "s:9TedeeLock0A11CertificateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9TedeeLock0A11CertificateV11certificate14expirationDate15devicePublicKey06mobilehI0ACSS_10Foundation0F0VS2StKcfc",
+            "mangledName": "$s9TedeeLock0A11CertificateV11certificate14expirationDate15devicePublicKey06mobilehI0ACSS_10Foundation0F0VS2StKcfc",
+            "moduleName": "TedeeLock",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Errors",
+            "printedName": "Errors",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "expired",
+                "printedName": "expired",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TedeeLock.TedeeCertificate.Errors.Type) -> TedeeLock.TedeeCertificate.Errors",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Errors",
+                        "printedName": "TedeeLock.TedeeCertificate.Errors",
+                        "usr": "s:9TedeeLock0A11CertificateV6ErrorsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TedeeLock.TedeeCertificate.Errors.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Errors",
+                            "printedName": "TedeeLock.TedeeCertificate.Errors",
+                            "usr": "s:9TedeeLock0A11CertificateV6ErrorsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9TedeeLock0A11CertificateV6ErrorsO7expiredyA2EmF",
+                "mangledName": "$s9TedeeLock0A11CertificateV6ErrorsO7expiredyA2EmF",
+                "moduleName": "TedeeLock"
+              },
+              {
+                "kind": "Var",
+                "name": "invalidDevicePublicKey",
+                "printedName": "invalidDevicePublicKey",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TedeeLock.TedeeCertificate.Errors.Type) -> TedeeLock.TedeeCertificate.Errors",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Errors",
+                        "printedName": "TedeeLock.TedeeCertificate.Errors",
+                        "usr": "s:9TedeeLock0A11CertificateV6ErrorsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TedeeLock.TedeeCertificate.Errors.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Errors",
+                            "printedName": "TedeeLock.TedeeCertificate.Errors",
+                            "usr": "s:9TedeeLock0A11CertificateV6ErrorsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9TedeeLock0A11CertificateV6ErrorsO22invalidDevicePublicKeyyA2EmF",
+                "mangledName": "$s9TedeeLock0A11CertificateV6ErrorsO22invalidDevicePublicKeyyA2EmF",
+                "moduleName": "TedeeLock"
+              },
+              {
+                "kind": "Var",
+                "name": "invalidMobilePublicKey",
+                "printedName": "invalidMobilePublicKey",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TedeeLock.TedeeCertificate.Errors.Type) -> TedeeLock.TedeeCertificate.Errors",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Errors",
+                        "printedName": "TedeeLock.TedeeCertificate.Errors",
+                        "usr": "s:9TedeeLock0A11CertificateV6ErrorsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TedeeLock.TedeeCertificate.Errors.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Errors",
+                            "printedName": "TedeeLock.TedeeCertificate.Errors",
+                            "usr": "s:9TedeeLock0A11CertificateV6ErrorsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9TedeeLock0A11CertificateV6ErrorsO22invalidMobilePublicKeyyA2EmF",
+                "mangledName": "$s9TedeeLock0A11CertificateV6ErrorsO22invalidMobilePublicKeyyA2EmF",
+                "moduleName": "TedeeLock"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Errors",
+                    "printedName": "TedeeLock.TedeeCertificate.Errors",
+                    "usr": "s:9TedeeLock0A11CertificateV6ErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Errors",
+                    "printedName": "TedeeLock.TedeeCertificate.Errors",
+                    "usr": "s:9TedeeLock0A11CertificateV6ErrorsO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9TedeeLock0A11CertificateV6ErrorsO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s9TedeeLock0A11CertificateV6ErrorsO2eeoiySbAE_AEtFZ",
+                "moduleName": "TedeeLock",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9TedeeLock0A11CertificateV6ErrorsO9hashValueSivp",
+                "mangledName": "$s9TedeeLock0A11CertificateV6ErrorsO9hashValueSivp",
+                "moduleName": "TedeeLock",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9TedeeLock0A11CertificateV6ErrorsO9hashValueSivg",
+                    "mangledName": "$s9TedeeLock0A11CertificateV6ErrorsO9hashValueSivg",
+                    "moduleName": "TedeeLock",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9TedeeLock0A11CertificateV6ErrorsO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s9TedeeLock0A11CertificateV6ErrorsO4hash4intoys6HasherVz_tF",
+                "moduleName": "TedeeLock",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:9TedeeLock0A11CertificateV6ErrorsO",
+            "mangledName": "$s9TedeeLock0A11CertificateV6ErrorsO",
+            "moduleName": "TedeeLock",
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9TedeeLock0A11CertificateV",
+        "mangledName": "$s9TedeeLock0A11CertificateV",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TedeeLockManager",
+        "printedName": "TedeeLockManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TedeeLockManager",
+                "printedName": "TedeeLock.TedeeLockManager",
+                "usr": "s:9TedeeLock0aB7ManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9TedeeLock0aB7ManagerC6sharedACvpZ",
+            "mangledName": "$s9TedeeLock0aB7ManagerC6sharedACvpZ",
+            "moduleName": "TedeeLock",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TedeeLockManager",
+                    "printedName": "TedeeLock.TedeeLockManager",
+                    "usr": "s:9TedeeLock0aB7ManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9TedeeLock0aB7ManagerC6sharedACvgZ",
+                "mangledName": "$s9TedeeLock0aB7ManagerC6sharedACvgZ",
+                "moduleName": "TedeeLock",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "publicKey",
+            "printedName": "publicKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9TedeeLock0aB7ManagerC9publicKeySSvpZ",
+            "mangledName": "$s9TedeeLock0aB7ManagerC9publicKeySSvpZ",
+            "moduleName": "TedeeLock",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9TedeeLock0aB7ManagerC9publicKeySSvgZ",
+                "mangledName": "$s9TedeeLock0aB7ManagerC9publicKeySSvgZ",
+                "moduleName": "TedeeLock",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onDisconnectionStream",
+            "printedName": "onDisconnectionStream",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AsyncStream",
+                "printedName": "_Concurrency.AsyncStream<TedeeLock.TedeeSerialNumber>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TedeeSerialNumber",
+                    "printedName": "TedeeLock.TedeeSerialNumber",
+                    "usr": "s:9TedeeLock0A12SerialNumberV"
+                  }
+                ],
+                "usr": "s:ScS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9TedeeLock0aB7ManagerC21onDisconnectionStreamScSyAA0A12SerialNumberVGvp",
+            "mangledName": "$s9TedeeLock0aB7ManagerC21onDisconnectionStreamScSyAA0A12SerialNumberVGvp",
+            "moduleName": "TedeeLock",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AsyncStream",
+                    "printedName": "_Concurrency.AsyncStream<TedeeLock.TedeeSerialNumber>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TedeeSerialNumber",
+                        "printedName": "TedeeLock.TedeeSerialNumber",
+                        "usr": "s:9TedeeLock0A12SerialNumberV"
+                      }
+                    ],
+                    "usr": "s:ScS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9TedeeLock0aB7ManagerC21onDisconnectionStreamScSyAA0A12SerialNumberVGvg",
+                "mangledName": "$s9TedeeLock0aB7ManagerC21onDisconnectionStreamScSyAA0A12SerialNumberVGvg",
+                "moduleName": "TedeeLock",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AsyncStream",
+                    "printedName": "_Concurrency.AsyncStream<TedeeLock.TedeeSerialNumber>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TedeeSerialNumber",
+                        "printedName": "TedeeLock.TedeeSerialNumber",
+                        "usr": "s:9TedeeLock0A12SerialNumberV"
+                      }
+                    ],
+                    "usr": "s:ScS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9TedeeLock0aB7ManagerC21onDisconnectionStreamScSyAA0A12SerialNumberVGvs",
+                "mangledName": "$s9TedeeLock0aB7ManagerC21onDisconnectionStreamScSyAA0A12SerialNumberVGvs",
+                "moduleName": "TedeeLock",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9TedeeLock0aB7ManagerC21onDisconnectionStreamScSyAA0A12SerialNumberVGvM",
+                "mangledName": "$s9TedeeLock0aB7ManagerC21onDisconnectionStreamScSyAA0A12SerialNumberVGvM",
+                "moduleName": "TedeeLock",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(_:certificate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TedeeSerialNumber",
+                "printedName": "TedeeLock.TedeeSerialNumber",
+                "usr": "s:9TedeeLock0A12SerialNumberV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TedeeCertificate",
+                "printedName": "TedeeLock.TedeeCertificate",
+                "usr": "s:9TedeeLock0A11CertificateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9TedeeLock0aB7ManagerC7connect_11certificateyAA0A12SerialNumberV_AA0A11CertificateVtYaKF",
+            "mangledName": "$s9TedeeLock0aB7ManagerC7connect_11certificateyAA0A12SerialNumberV_AA0A11CertificateVtYaKF",
+            "moduleName": "TedeeLock",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isConnected",
+            "printedName": "isConnected(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TedeeSerialNumber",
+                "printedName": "TedeeLock.TedeeSerialNumber",
+                "usr": "s:9TedeeLock0A12SerialNumberV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9TedeeLock0aB7ManagerC11isConnectedySbAA0A12SerialNumberVF",
+            "mangledName": "$s9TedeeLock0aB7ManagerC11isConnectedySbAA0A12SerialNumberVF",
+            "moduleName": "TedeeLock",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TedeeSerialNumber",
+                "printedName": "TedeeLock.TedeeSerialNumber",
+                "usr": "s:9TedeeLock0A12SerialNumberV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9TedeeLock0aB7ManagerC10disconnectyyAA0A12SerialNumberVYaKF",
+            "mangledName": "$s9TedeeLock0aB7ManagerC10disconnectyyAA0A12SerialNumberVYaKF",
+            "moduleName": "TedeeLock",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Errors",
+            "printedName": "Errors",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "notFound",
+                "printedName": "notFound",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TedeeLock.TedeeLockManager.Errors.Type) -> TedeeLock.TedeeLockManager.Errors",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Errors",
+                        "printedName": "TedeeLock.TedeeLockManager.Errors",
+                        "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TedeeLock.TedeeLockManager.Errors.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Errors",
+                            "printedName": "TedeeLock.TedeeLockManager.Errors",
+                            "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO8notFoundyA2EmF",
+                "mangledName": "$s9TedeeLock0aB7ManagerC6ErrorsO8notFoundyA2EmF",
+                "moduleName": "TedeeLock"
+              },
+              {
+                "kind": "Var",
+                "name": "systemPermissions",
+                "printedName": "systemPermissions",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TedeeLock.TedeeLockManager.Errors.Type) -> TedeeLock.TedeeLockManager.Errors",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Errors",
+                        "printedName": "TedeeLock.TedeeLockManager.Errors",
+                        "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TedeeLock.TedeeLockManager.Errors.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Errors",
+                            "printedName": "TedeeLock.TedeeLockManager.Errors",
+                            "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO17systemPermissionsyA2EmF",
+                "mangledName": "$s9TedeeLock0aB7ManagerC6ErrorsO17systemPermissionsyA2EmF",
+                "moduleName": "TedeeLock"
+              },
+              {
+                "kind": "Var",
+                "name": "deviceNotInitialized",
+                "printedName": "deviceNotInitialized",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TedeeLock.TedeeLockManager.Errors.Type) -> TedeeLock.TedeeLockManager.Errors",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Errors",
+                        "printedName": "TedeeLock.TedeeLockManager.Errors",
+                        "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TedeeLock.TedeeLockManager.Errors.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Errors",
+                            "printedName": "TedeeLock.TedeeLockManager.Errors",
+                            "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO20deviceNotInitializedyA2EmF",
+                "mangledName": "$s9TedeeLock0aB7ManagerC6ErrorsO20deviceNotInitializedyA2EmF",
+                "moduleName": "TedeeLock"
+              },
+              {
+                "kind": "Var",
+                "name": "invalidCertificate",
+                "printedName": "invalidCertificate",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TedeeLock.TedeeLockManager.Errors.Type) -> TedeeLock.TedeeLockManager.Errors",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Errors",
+                        "printedName": "TedeeLock.TedeeLockManager.Errors",
+                        "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TedeeLock.TedeeLockManager.Errors.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Errors",
+                            "printedName": "TedeeLock.TedeeLockManager.Errors",
+                            "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO18invalidCertificateyA2EmF",
+                "mangledName": "$s9TedeeLock0aB7ManagerC6ErrorsO18invalidCertificateyA2EmF",
+                "moduleName": "TedeeLock"
+              },
+              {
+                "kind": "Var",
+                "name": "secureSessionFailed",
+                "printedName": "secureSessionFailed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TedeeLock.TedeeLockManager.Errors.Type) -> TedeeLock.TedeeLockManager.Errors",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Errors",
+                        "printedName": "TedeeLock.TedeeLockManager.Errors",
+                        "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TedeeLock.TedeeLockManager.Errors.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Errors",
+                            "printedName": "TedeeLock.TedeeLockManager.Errors",
+                            "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO19secureSessionFailedyA2EmF",
+                "mangledName": "$s9TedeeLock0aB7ManagerC6ErrorsO19secureSessionFailedyA2EmF",
+                "moduleName": "TedeeLock"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Errors",
+                    "printedName": "TedeeLock.TedeeLockManager.Errors",
+                    "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Errors",
+                    "printedName": "TedeeLock.TedeeLockManager.Errors",
+                    "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s9TedeeLock0aB7ManagerC6ErrorsO2eeoiySbAE_AEtFZ",
+                "moduleName": "TedeeLock",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO9hashValueSivp",
+                "mangledName": "$s9TedeeLock0aB7ManagerC6ErrorsO9hashValueSivp",
+                "moduleName": "TedeeLock",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO9hashValueSivg",
+                    "mangledName": "$s9TedeeLock0aB7ManagerC6ErrorsO9hashValueSivg",
+                    "moduleName": "TedeeLock",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s9TedeeLock0aB7ManagerC6ErrorsO4hash4intoys6HasherVz_tF",
+                "moduleName": "TedeeLock",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:9TedeeLock0aB7ManagerC6ErrorsO",
+            "mangledName": "$s9TedeeLock0aB7ManagerC6ErrorsO",
+            "moduleName": "TedeeLock",
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9TedeeLock0aB7ManagerC",
+        "mangledName": "$s9TedeeLock0aB7ManagerC",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "TedeeLock"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TedeeSerialNumber",
+        "printedName": "TedeeSerialNumber",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "serialNumber",
+            "printedName": "serialNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9TedeeLock0A12SerialNumberV06serialD0SSvp",
+            "mangledName": "$s9TedeeLock0A12SerialNumberV06serialD0SSvp",
+            "moduleName": "TedeeLock",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9TedeeLock0A12SerialNumberV06serialD0SSvg",
+                "mangledName": "$s9TedeeLock0A12SerialNumberV06serialD0SSvg",
+                "moduleName": "TedeeLock",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(serialNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TedeeSerialNumber",
+                "printedName": "TedeeLock.TedeeSerialNumber",
+                "usr": "s:9TedeeLock0A12SerialNumberV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9TedeeLock0A12SerialNumberV06serialD0ACSS_tKcfc",
+            "mangledName": "$s9TedeeLock0A12SerialNumberV06serialD0ACSS_tKcfc",
+            "moduleName": "TedeeLock",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Errors",
+            "printedName": "Errors",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "invalidFormat",
+                "printedName": "invalidFormat",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TedeeLock.TedeeSerialNumber.Errors.Type) -> TedeeLock.TedeeSerialNumber.Errors",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Errors",
+                        "printedName": "TedeeLock.TedeeSerialNumber.Errors",
+                        "usr": "s:9TedeeLock0A12SerialNumberV6ErrorsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TedeeLock.TedeeSerialNumber.Errors.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Errors",
+                            "printedName": "TedeeLock.TedeeSerialNumber.Errors",
+                            "usr": "s:9TedeeLock0A12SerialNumberV6ErrorsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9TedeeLock0A12SerialNumberV6ErrorsO13invalidFormatyA2EmF",
+                "mangledName": "$s9TedeeLock0A12SerialNumberV6ErrorsO13invalidFormatyA2EmF",
+                "moduleName": "TedeeLock"
+              },
+              {
+                "kind": "Var",
+                "name": "invalidDeviceType",
+                "printedName": "invalidDeviceType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TedeeLock.TedeeSerialNumber.Errors.Type) -> TedeeLock.TedeeSerialNumber.Errors",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Errors",
+                        "printedName": "TedeeLock.TedeeSerialNumber.Errors",
+                        "usr": "s:9TedeeLock0A12SerialNumberV6ErrorsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TedeeLock.TedeeSerialNumber.Errors.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Errors",
+                            "printedName": "TedeeLock.TedeeSerialNumber.Errors",
+                            "usr": "s:9TedeeLock0A12SerialNumberV6ErrorsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9TedeeLock0A12SerialNumberV6ErrorsO17invalidDeviceTypeyA2EmF",
+                "mangledName": "$s9TedeeLock0A12SerialNumberV6ErrorsO17invalidDeviceTypeyA2EmF",
+                "moduleName": "TedeeLock"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Errors",
+                    "printedName": "TedeeLock.TedeeSerialNumber.Errors",
+                    "usr": "s:9TedeeLock0A12SerialNumberV6ErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Errors",
+                    "printedName": "TedeeLock.TedeeSerialNumber.Errors",
+                    "usr": "s:9TedeeLock0A12SerialNumberV6ErrorsO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9TedeeLock0A12SerialNumberV6ErrorsO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s9TedeeLock0A12SerialNumberV6ErrorsO2eeoiySbAE_AEtFZ",
+                "moduleName": "TedeeLock",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9TedeeLock0A12SerialNumberV6ErrorsO9hashValueSivp",
+                "mangledName": "$s9TedeeLock0A12SerialNumberV6ErrorsO9hashValueSivp",
+                "moduleName": "TedeeLock",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9TedeeLock0A12SerialNumberV6ErrorsO9hashValueSivg",
+                    "mangledName": "$s9TedeeLock0A12SerialNumberV6ErrorsO9hashValueSivg",
+                    "moduleName": "TedeeLock",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9TedeeLock0A12SerialNumberV6ErrorsO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s9TedeeLock0A12SerialNumberV6ErrorsO4hash4intoys6HasherVz_tF",
+                "moduleName": "TedeeLock",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:9TedeeLock0A12SerialNumberV6ErrorsO",
+            "mangledName": "$s9TedeeLock0A12SerialNumberV6ErrorsO",
+            "moduleName": "TedeeLock",
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9TedeeLock0A12SerialNumberV",
+        "mangledName": "$s9TedeeLock0A12SerialNumberV",
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/PeriperalDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 925,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/PeriperalDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1053,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/PeriperalDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1200,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/PeriperalDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1344,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/CryptoManager.swift",
+      "kind": "StringLiteral",
+      "offset": 347,
+      "length": 11,
+      "value": "\"mobileKey\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/CryptoManager.swift",
+      "kind": "StringLiteral",
+      "offset": 461,
+      "length": 22,
+      "value": "\"Something went wrong\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/CryptoManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 491,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/CryptoManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1160,
+      "length": 11,
+      "value": "\"mobileKey\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/CryptoManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1383,
+      "length": 11,
+      "value": "\"mobileKey\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/CryptoManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1768,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/CryptoManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2047,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/CryptoManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2124,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/CryptoManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2511,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/CryptoManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2766,
+      "length": 40,
+      "value": "\"Cannot convert SecKey to base64 string\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 582,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 586,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 651,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 694,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 699,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 752,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 762,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 792,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 800,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 831,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 839,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 866,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1169,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1173,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1443,
+      "length": 6,
+      "value": "0xffff"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1541,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1561,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1575,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1595,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1609,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1636,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1641,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1658,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1683,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/MessageCipher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2224,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 4,
+      "value": "0x02"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 329,
+      "length": 4,
+      "value": "0x01"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 370,
+      "length": 4,
+      "value": "0x02"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 412,
+      "length": 4,
+      "value": "0x07"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 473,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 513,
+      "length": 4,
+      "value": "0x01"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 577,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 616,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 676,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 705,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 735,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 765,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 794,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1004,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1037,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1070,
+      "length": 2,
+      "value": "65"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1508,
+      "length": 3,
+      "value": "0x0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1513,
+      "length": 3,
+      "value": "0x0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1773,
+      "length": 18,
+      "value": "\"ptlsc hs traffic\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "Array",
+      "offset": 1825,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1932,
+      "length": 18,
+      "value": "\"ptlss hs traffic\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "Array",
+      "offset": 1984,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 2091,
+      "length": 18,
+      "value": "\"ptlsc ap traffic\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "Array",
+      "offset": 2143,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 2250,
+      "length": 18,
+      "value": "\"ptlss ap traffic\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "Array",
+      "offset": 2302,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "Array",
+      "offset": 2476,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3193,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3630,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4403,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4897,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4945,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4954,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4969,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5237,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5242,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5274,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5292,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5756,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5766,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "Array",
+      "offset": 5806,
+      "length": 12,
+      "value": "[0, 0, 0, 0]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6095,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6523,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7733,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7743,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "Array",
+      "offset": 7786,
+      "length": 12,
+      "value": "[0, 0, 0, 0]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8007,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8017,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8065,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8237,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8415,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8590,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8600,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8652,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9218,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "Array",
+      "offset": 9264,
+      "length": 6,
+      "value": "[0, 0]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "Array",
+      "offset": 9492,
+      "length": 6,
+      "value": "[0, 0]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "Array",
+      "offset": 9876,
+      "length": 6,
+      "value": "[0, 0]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10135,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10224,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10581,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10660,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10874,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11081,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11196,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11292,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11574,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11747,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12085,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12455,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14721,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14731,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "Array",
+      "offset": 14776,
+      "length": 12,
+      "value": "[0, 0, 0, 0]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15003,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15013,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15061,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15572,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 15771,
+      "length": 29,
+      "value": "\"Cannot generate random data\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession+Errors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 431,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession+Errors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 481,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession+Errors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 539,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession+Errors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 591,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession+Errors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 648,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession+Errors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 704,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession+Errors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 762,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 301,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 439,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2158,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "Array",
+      "offset": 2265,
+      "length": 3,
+      "value": "[3]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3133,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3225,
+      "length": 3,
+      "value": "0xF"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3249,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3315,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3388,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3452,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3749,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3910,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "Array",
+      "offset": 4202,
+      "length": 3,
+      "value": "[5]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5135,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "Array",
+      "offset": 5190,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5405,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "Array",
+      "offset": 5565,
+      "length": 3,
+      "value": "[7]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "Array",
+      "offset": 5996,
+      "length": 3,
+      "value": "[6]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7463,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7491,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/CBPeripheral+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 38,
+      "value": "\"00000002-4899-489F-A301-FBEE544B1DB0\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/CBService+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 265,
+      "length": 38,
+      "value": "\"00000501-4899-489F-A301-FBEE544B1DB0\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/CBService+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 38,
+      "value": "\"00000401-4899-489F-A301-FBEE544B1DB0\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/CBService+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 623,
+      "length": 38,
+      "value": "\"00000301-4899-489F-A301-FBEE544B1DB0\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/CBService+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 798,
+      "length": 38,
+      "value": "\"00000101-4899-489F-A301-FBEE544B1DB0\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/CBUUID+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 256,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/CBUUID+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/SecKey+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 338,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/String+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/String+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 337,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/String+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 6,
+      "value": "\"0000\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/String+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 367,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/String+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/String+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 402,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/String+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 450,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/String+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 460,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/String+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 479,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/String+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 489,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/String+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 508,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/String+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 518,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/String+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Extensions\/String+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 547,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeCertificate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1016,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeLockManager.swift",
+      "kind": "StringLiteral",
+      "offset": 601,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeLockManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3774,
+      "length": 14,
+      "value": "30000000000"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeLockManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5106,
+      "length": 10,
+      "value": "1000000000"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "StringLiteral",
+      "offset": 757,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "StringLiteral",
+      "offset": 853,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "StringLiteral",
+      "offset": 964,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "StringLiteral",
+      "offset": 975,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "IntegerLiteral",
+      "offset": 988,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "StringLiteral",
+      "offset": 1052,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1123,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "StringLiteral",
+      "offset": 1202,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "StringLiteral",
+      "offset": 1213,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1226,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "StringLiteral",
+      "offset": 1297,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1375,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "StringLiteral",
+      "offset": 1551,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "StringLiteral",
+      "offset": 1562,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1575,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1628,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1632,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "Array",
+      "offset": 1654,
+      "length": 6,
+      "value": "[2, 4]"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1825,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1884,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/TedeeSerialNumber.swift",
+      "kind": "Array",
+      "offset": 1906,
+      "length": 6,
+      "value": "[2, 4]"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TedeeLock
+// swift-module-flags-ignorable-private: -package-name tedeelock
+import CoreBluetooth
+import CryptoSwift
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct TedeeCertificate {
+  public let certificate: Swift.String
+  public let expirationDate: Foundation.Date
+  public let devicePublicKey: Swift.String
+  public let mobilePublicKey: Swift.String
+  public init(certificate: Swift.String, expirationDate: Foundation.Date, devicePublicKey: Swift.String, mobilePublicKey: Swift.String) throws
+}
+extension TedeeLock.TedeeCertificate {
+  public enum Errors : Swift.Error {
+    case expired
+    case invalidDevicePublicKey
+    case invalidMobilePublicKey
+    public static func == (a: TedeeLock.TedeeCertificate.Errors, b: TedeeLock.TedeeCertificate.Errors) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+@_hasMissingDesignatedInitializers final public class TedeeLockManager {
+  public static let shared: TedeeLock.TedeeLockManager
+  public static var publicKey: Swift.String {
+    get
+  }
+  final public var onDisconnectionStream: _Concurrency.AsyncStream<TedeeLock.TedeeSerialNumber> {
+    get
+    set
+  }
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func connect(_ serialNumber: TedeeLock.TedeeSerialNumber, certificate: TedeeLock.TedeeCertificate) async throws
+  #endif
+  final public func isConnected(_ serialNumber: TedeeLock.TedeeSerialNumber) -> Swift.Bool
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func disconnect(_ serialNumber: TedeeLock.TedeeSerialNumber) async throws
+  #endif
+  @objc deinit
+}
+extension TedeeLock.TedeeLockManager {
+  public enum Errors : Swift.Error {
+    case notFound
+    case systemPermissions
+    case deviceNotInitialized
+    case invalidCertificate
+    case secureSessionFailed
+    public static func == (a: TedeeLock.TedeeLockManager.Errors, b: TedeeLock.TedeeLockManager.Errors) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public struct TedeeSerialNumber {
+  public let serialNumber: Swift.String
+  public init(serialNumber: Swift.String) throws
+}
+extension TedeeLock.TedeeSerialNumber {
+  public enum Errors : Swift.Error {
+    case invalidFormat
+    case invalidDeviceType
+    public static func == (a: TedeeLock.TedeeSerialNumber.Errors, b: TedeeLock.TedeeSerialNumber.Errors) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension TedeeLock.TedeeCertificate.Errors : Swift.Equatable {}
+extension TedeeLock.TedeeCertificate.Errors : Swift.Hashable {}
+extension TedeeLock.TedeeLockManager.Errors : Swift.Equatable {}
+extension TedeeLock.TedeeLockManager.Errors : Swift.Hashable {}
+extension TedeeLock.TedeeSerialNumber.Errors : Swift.Equatable {}
+extension TedeeLock.TedeeSerialNumber.Errors : Swift.Hashable {}

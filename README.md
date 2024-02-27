@@ -48,7 +48,7 @@ Provided SDK is currently in alpha phase. New versions of the SDK can contain ch
 
 ### License
 
-The Tedee Mobile SDK for iOS is licensed under the [LICENSE name](https://chat.openai.com/c/LICENSE.md). Please review the license file for comprehensive terms and conditions governing the use of the SDK.
+The Tedee Mobile SDK for iOS is licensed under the [LICENSE name](LICENSE.md). Please review the license file for comprehensive terms and conditions governing the use of the SDK.
 
 ### Support
 

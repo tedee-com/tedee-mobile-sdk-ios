@@ -34,6 +34,23 @@ Use `TedeeSerial` and `TedeeCertificate` objects to store configured data.
 
 When all required data is provided you can try to connect to the lock using `TedeeManager's` `connect(:SerialNumber, certificate: TedeeCertificate, keepConnection: Bool)` method.
 
+### Example
+
+```swift
+let mobilePublicKey = TedeeLockManager.publicKey
+let serialNumber = try TedeeSerialNumber(serialNumber: "00000000-000000")
+guard let expirationDate = Date.date(from: "[date string from API]",
+                                     format: "yyyy-MM-dd'T'HH:mm:ss.SSSSSSS'Z'", isUTC: true) else {
+    fatalError("Cannot create expirationDate")
+}
+let certificate = try TedeeCertificate(certificate: "[certificate string from API]",
+                                       expirationDate: expirationDate,
+                                       devicePublicKey: "[device public key from API]",
+                                       mobilePublicKey: mobilePublicKey)
+
+TedeeManager.shared.connect(serialNumber, certificate: certificate, keepConnection: true)
+```
+
 ## Example App
 
 Explore the capabilities of the Tedee Mobile SDK through our [example app](https://github.com/tedee-com/tedee-example-ble-ios). This example app demonstrates various use cases and serves as a practical guide for integrating the SDK into your projects.
@@ -41,6 +58,8 @@ Explore the capabilities of the Tedee Mobile SDK through our [example app](https
 ### API Documentation
 
 Documentation describing public API of the Tedee Lock framework is available at [https://](). Refer to this documentation for in-depth insights into available functionalities and methods.
+
+For more details about Tedee Lock BLE API, available commands, their parameters, notifications and more please refer to our BLE API documentation available at [https://tedee-tedee-lock-ble-api-doc.readthedocs-hosted.com/en/latest/index.html](https://tedee-tedee-lock-ble-api-doc.readthedocs-hosted.com/en/latest/index.html).
 
 ### Disclaimer
 
@@ -52,6 +71,6 @@ The Tedee Mobile SDK for iOS is licensed under the [LICENSE name](LICENSE.md). P
 
 ### Support
 
-For any inquiries, feedback, or assistance, our dedicated support team is here to help. Reach out to us at [support@tedee.com](mailto:support@tedee.com) with any questions or concerns you may have.
+For any inquiries, feedback, or assistance, our iOS team is here to help. Reach out to us at [Discussions](https://github.com/tedee-com/tedee-mobile-sdk-ios/discussions) section with any questions or concerns you may have.
 
 We're excited to witness the innovative solutions you create with the Tedee Mobile SDK! Happy coding! 🚀

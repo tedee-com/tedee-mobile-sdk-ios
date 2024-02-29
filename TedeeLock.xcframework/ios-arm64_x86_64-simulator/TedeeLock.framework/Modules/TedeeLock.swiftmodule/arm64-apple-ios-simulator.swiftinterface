@@ -36,12 +36,23 @@ extension TedeeLock.TedeeCertificate {
     get
     set
   }
+  final public var onConnectionStream: _Concurrency.AsyncStream<TedeeLock.TedeeSerialNumber> {
+    get
+    set
+  }
+  final public var notificationsStream: _Concurrency.AsyncStream<(TedeeLock.TedeeSerialNumber, [Swift.UInt8])> {
+    get
+    set
+  }
   #if compiler(>=5.3) && $AsyncAwait
-  final public func connect(_ serialNumber: TedeeLock.TedeeSerialNumber, certificate: TedeeLock.TedeeCertificate) async throws
+  final public func connect(_ serialNumber: TedeeLock.TedeeSerialNumber, certificate: TedeeLock.TedeeCertificate, keepConnection: Swift.Bool = false) async throws
   #endif
   final public func isConnected(_ serialNumber: TedeeLock.TedeeSerialNumber) -> Swift.Bool
   #if compiler(>=5.3) && $AsyncAwait
   final public func disconnect(_ serialNumber: TedeeLock.TedeeSerialNumber) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func sendCommand(_ serialNumber: TedeeLock.TedeeSerialNumber, command: Swift.UInt8, parameters: [Swift.UInt8] = []) async throws -> (Swift.UInt8, [Swift.UInt8]?)
   #endif
   @objc deinit
 }
@@ -52,6 +63,13 @@ extension TedeeLock.TedeeLockManager {
     case deviceNotInitialized
     case invalidCertificate
     case secureSessionFailed
+    case notConnected
+    case alreadyConnecting
+    case alreadyConnected
+    case cantSendCommand
+    case cantParseResponse
+    case waitingForResponse
+    case disconnected
     public static func == (a: TedeeLock.TedeeLockManager.Errors, b: TedeeLock.TedeeLockManager.Errors) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {

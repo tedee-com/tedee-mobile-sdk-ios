@@ -48,7 +48,7 @@ let certificate = try TedeeCertificate(certificate: "[certificate string from AP
                                        devicePublicKey: "[device public key from API]",
                                        mobilePublicKey: mobilePublicKey)
 
-TedeeManager.shared.connect(serialNumber, certificate: certificate, keepConnection: true)
+TedeeLockManager.shared.connect(serialNumber, certificate: certificate, keepConnection: true)
 ```
 
 ## Example App

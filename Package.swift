@@ -12,14 +12,15 @@ let package = Package(
         .library(
             name: "TedeeMobileSDK",
             targets: [
-                "TedeeMobileSDK",
-                "TedeeLockFramework"]),
+//                "TedeeMobileSDK",
+                "TedeeLockFramework"
+            ]),
     ],
     dependencies: [
-        .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", .upToNextMajor(from: "1.8.1"))
+//        .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", .upToNextMajor(from: "1.8.1"))
     ],
     targets: [
-        .target(name: "TedeeMobileSDK", dependencies: ["CryptoSwift"]),
+//        .target(name: "TedeeMobileSDK", dependencies: ["CryptoSwift"]),
         .binaryTarget(name: "TedeeLockFramework", path: "TedeeLock.xcframework")
     ]
 )

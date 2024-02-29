@@ -65,10 +65,6 @@ For more details about Tedee Lock BLE API, available commands, their parameters,
 
 Provided SDK is currently in alpha phase. New versions of the SDK can contain changes in public API. Please take a look at release notes.
 
-### License
-
-The Tedee Mobile SDK for iOS is licensed under the [LICENSE name](LICENSE.md). Please review the license file for comprehensive terms and conditions governing the use of the SDK.
-
 ### Support
 
 For any inquiries, feedback, or assistance, our iOS team is here to help. Reach out to us at [Discussions](https://github.com/tedee-com/tedee-mobile-sdk-ios/discussions) section with any questions or concerns you may have.

@@ -63,7 +63,10 @@
         "name": "CryptoSwift",
         "printedName": "CryptoSwift",
         "declKind": "Import",
-        "moduleName": "TedeeLock"
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -90,7 +93,10 @@
         "name": "CryptoSwift",
         "printedName": "CryptoSwift",
         "declKind": "Import",
-        "moduleName": "TedeeLock"
+        "moduleName": "TedeeLock",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -5033,140 +5039,140 @@
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 205,
+      "offset": 226,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 286,
+      "offset": 307,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 329,
+      "offset": 350,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 370,
+      "offset": 391,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 412,
+      "offset": 433,
       "length": 4,
       "value": "0x07"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 473,
+      "offset": 494,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 513,
+      "offset": 534,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 577,
+      "offset": 598,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 616,
+      "offset": 637,
       "length": 4,
       "value": "0xff"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 676,
+      "offset": 697,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 705,
+      "offset": 726,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 735,
+      "offset": 756,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 765,
+      "offset": 786,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 794,
+      "offset": 815,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 1004,
+      "offset": 1025,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 1037,
+      "offset": 1058,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 1070,
+      "offset": 1091,
       "length": 2,
       "value": "65"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 1508,
+      "offset": 1529,
       "length": 3,
       "value": "0x0"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 1513,
+      "offset": 1534,
       "length": 3,
       "value": "0x0"
     },
     {
       "filePath": "\/Users\/pawelmadej\/Developer\/tedee-lock-sdk-private\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecurityProtocol.swift",
       "kind": "Array",
-      "offset": 2476,
+      "offset": 2497,
       "length": 2,
       "value": "[]"
     },

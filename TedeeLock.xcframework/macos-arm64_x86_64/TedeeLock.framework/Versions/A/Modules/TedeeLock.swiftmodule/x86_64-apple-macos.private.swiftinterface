@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target x86_64-apple-macos10.15 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TedeeLock
-// swift-module-flags-ignorable-private: -package-name tedeelock
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-macos10.15 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -package-name tedeelock -module-name TedeeLock
 import CoreBluetooth
 import CryptoSwift
 import Foundation
@@ -28,20 +27,32 @@ extension TedeeLock.TedeeCertificate {
     }
   }
 }
+public struct TedeeConnectionStatus {
+  public let serialNumber: TedeeLock.TedeeSerialNumber
+  public let status: TedeeLock.TedeeConnectionStatus.Status
+  public let error: (any Swift.Error)?
+  public enum Status {
+    case connected
+    case connecting
+    case disconnected
+    public static func == (a: TedeeLock.TedeeConnectionStatus.Status, b: TedeeLock.TedeeConnectionStatus.Status) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
 @_hasMissingDesignatedInitializers final public class TedeeLockManager {
   public static let shared: TedeeLock.TedeeLockManager
+  final public var signedDateTimeProvider: (any TedeeLock.TedeeSignedDateTimeProvider)?
   public static var publicKey: Swift.String {
     get
   }
-  final public var onDisconnectionStream: _Concurrency.AsyncStream<TedeeLock.TedeeSerialNumber> {
+  final public var connectionStatusStream: _Concurrency.AsyncStream<TedeeLock.TedeeConnectionStatus> {
     get
     set
   }
-  final public var onConnectionStream: _Concurrency.AsyncStream<TedeeLock.TedeeSerialNumber> {
-    get
-    set
-  }
-  final public var notificationsStream: _Concurrency.AsyncStream<(TedeeLock.TedeeSerialNumber, [Swift.UInt8])> {
+  final public var notificationsStream: _Concurrency.AsyncStream<(TedeeLock.TedeeNotification)> {
     get
     set
   }
@@ -54,6 +65,18 @@ extension TedeeLock.TedeeCertificate {
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   final public func sendCommand(_ serialNumber: TedeeLock.TedeeSerialNumber, command: Swift.UInt8, parameters: [Swift.UInt8] = []) async throws -> (Swift.UInt8, [Swift.UInt8]?)
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func getLockState(_ serialNumber: TedeeLock.TedeeSerialNumber) async throws -> TedeeLock.TedeeLockState
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func openLock(_ serialNumber: TedeeLock.TedeeSerialNumber, parameter: TedeeLock.TedeeLockOperationParameters = .none) async throws -> TedeeLock.TedeeLockOperationResult
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func closeLock(_ serialNumber: TedeeLock.TedeeSerialNumber, parameter: TedeeLock.TedeeLockOperationParameters = .none) async throws -> TedeeLock.TedeeLockOperationResult
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func pullLock(_ serialNumber: TedeeLock.TedeeSerialNumber) async throws -> TedeeLock.TedeeLockOperationResult
   #endif
   @objc deinit
 }
@@ -71,11 +94,79 @@ extension TedeeLock.TedeeLockManager {
     case cantParseResponse
     case waitingForResponse
     case disconnected
-    public static func == (a: TedeeLock.TedeeLockManager.Errors, b: TedeeLock.TedeeLockManager.Errors) -> Swift.Bool
+    case missingSignedDateTime
+    case signedDateTimeProvider(any Swift.Error)
+    case invalidResponse
+  }
+}
+public enum TedeeLockOperationParameters : Swift.UInt8 {
+  case none
+  case auto
+  case force
+  case withoutPull
+  case unlockOrPull
+  case autoAlwaysPull
+  case autoNeverPull
+  case autoWhenLockedThenPull
+  case autoWhenUnlockedThenPull
+  public init?(rawValue: Swift.UInt8)
+  public typealias RawValue = Swift.UInt8
+  public var rawValue: Swift.UInt8 {
+    get
+  }
+}
+public enum TedeeLockOperationResult : Swift.UInt8 {
+  case success
+  case invalidParameter
+  case error
+  case busy
+  case notCalibrated
+  case unlockAlreadyCalledByAutounlock
+  case unlockAlreadyCalledByOtherOperation
+  case notConfigured
+  case dismounted
+  public init?(rawValue: Swift.UInt8)
+  public typealias RawValue = Swift.UInt8
+  public var rawValue: Swift.UInt8 {
+    get
+  }
+}
+public struct TedeeLockState {
+  public let state: TedeeLock.TedeeLockState.State
+  public let stateStatus: TedeeLock.TedeeLockState.Status
+  public enum State {
+    case uncalibrated
+    case calibration
+    case unlocked
+    case partiallyUnlocked
+    case unlocking
+    case locking
+    case locked
+    case pullSpring
+    case pulling
+    case unknown
+    public static func == (a: TedeeLock.TedeeLockState.State, b: TedeeLock.TedeeLockState.State) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
+  }
+  public enum Status {
+    case ok
+    case jammed
+    public static func == (a: TedeeLock.TedeeLockState.Status, b: TedeeLock.TedeeLockState.Status) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public struct TedeeNotification {
+  public let serialNumber: TedeeLock.TedeeSerialNumber
+  public let notification: TedeeLock.TedeeNotification.Notification
+  public enum Notification {
+    case lockState(TedeeLock.TedeeLockState)
+    case generic([Swift.UInt8])
   }
 }
 public struct TedeeSerialNumber {
@@ -93,9 +184,29 @@ extension TedeeLock.TedeeSerialNumber {
     }
   }
 }
+public struct TedeeSignedDateTime {
+  public let datetime: Swift.String
+  public let signature: Swift.String
+  public init(datetime: Swift.String, signature: Swift.String)
+}
+public protocol TedeeSignedDateTimeProvider {
+  #if compiler(>=5.3) && $AsyncAwait
+  func dateTime(for serialNumber: TedeeLock.TedeeSerialNumber) async throws -> TedeeLock.TedeeSignedDateTime
+  #endif
+}
 extension TedeeLock.TedeeCertificate.Errors : Swift.Equatable {}
 extension TedeeLock.TedeeCertificate.Errors : Swift.Hashable {}
-extension TedeeLock.TedeeLockManager.Errors : Swift.Equatable {}
-extension TedeeLock.TedeeLockManager.Errors : Swift.Hashable {}
+extension TedeeLock.TedeeConnectionStatus.Status : Swift.Equatable {}
+extension TedeeLock.TedeeConnectionStatus.Status : Swift.Hashable {}
+extension TedeeLock.TedeeLockOperationParameters : Swift.Equatable {}
+extension TedeeLock.TedeeLockOperationParameters : Swift.Hashable {}
+extension TedeeLock.TedeeLockOperationParameters : Swift.RawRepresentable {}
+extension TedeeLock.TedeeLockOperationResult : Swift.Equatable {}
+extension TedeeLock.TedeeLockOperationResult : Swift.Hashable {}
+extension TedeeLock.TedeeLockOperationResult : Swift.RawRepresentable {}
+extension TedeeLock.TedeeLockState.State : Swift.Equatable {}
+extension TedeeLock.TedeeLockState.State : Swift.Hashable {}
+extension TedeeLock.TedeeLockState.Status : Swift.Equatable {}
+extension TedeeLock.TedeeLockState.Status : Swift.Hashable {}
 extension TedeeLock.TedeeSerialNumber.Errors : Swift.Equatable {}
 extension TedeeLock.TedeeSerialNumber.Errors : Swift.Hashable {}

@@ -70,3 +70,8 @@ Provided SDK is currently in alpha phase. New versions of the SDK can contain ch
 For any inquiries, feedback, or assistance, our iOS team is here to help. Reach out to us at [Discussions](https://github.com/tedee-com/tedee-mobile-sdk-ios/discussions) section with any questions or concerns you may have.
 
 We're excited to witness the innovative solutions you create with the Tedee Mobile SDK! Happy coding! 🚀
+
+
+### Credits
+
+This product includes software developed by the "Marcin Krzyzanowski" (http://krzyzanowskim.com/).

@@ -11,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "TedeeMobileSDK",
-            targets: ["TedeeLockFramework", "TedeeMobileSDK"]),
+            targets: ["TedeeLockFramework"]),
     ],
     targets: [
         .binaryTarget(name: "TedeeLockFramework", path: "TedeeLock.xcframework")

@@ -57,7 +57,9 @@ Explore the capabilities of the Tedee Mobile SDK through our [example app](https
 
 ### API Documentation
 
-Documentation describing public API of the Tedee Lock framework is available at [https://](). Refer to this documentation for in-depth insights into available functionalities and methods.
+Documentation describing public API of the Tedee Lock framework is available at [https://tedee-com.github.io/tedee-mobile-sdk-ios/documentation/tedeelock/](https://tedee-com.github.io/tedee-mobile-sdk-ios/documentation/tedeelock/). Refer to this documentation for in-depth insights into available functionalities and methods.
+
+Or you can import TedeeLock.doccarchive file directly to Xcode Developer Documentation.
 
 For more details about Tedee Lock BLE API, available commands, their parameters, notifications and more please refer to our BLE API documentation available at [https://tedee-tedee-lock-ble-api-doc.readthedocs-hosted.com/en/latest/index.html](https://tedee-tedee-lock-ble-api-doc.readthedocs-hosted.com/en/latest/index.html).
 

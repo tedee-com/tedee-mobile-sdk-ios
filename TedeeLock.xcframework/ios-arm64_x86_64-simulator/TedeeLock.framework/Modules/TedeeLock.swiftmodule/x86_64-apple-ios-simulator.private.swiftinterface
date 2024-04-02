@@ -22,6 +22,37 @@ import _SwiftConcurrencyShims
     data += Array<UInt8>(repeating: 0, count: blockSize + max - 1 - (msgLength % blockSize))
   }
 }
+public struct TedeeAddLock : Swift.Encodable {
+  public let serialNumber: Swift.String
+  public var name: Swift.String
+  public let revision: Swift.Int
+  public let softwareVersions: [TedeeLock.TedeeAddLock.TedeeSoftwareVersion]
+  public let deviceSettings: TedeeLock.TedeeAddLock.TedeeDeviceSettings
+  public let signature: Swift.String
+  public var activationCode: Swift.String
+  public var organizationId: Swift.Int?
+  public var timeZone: Swift.String
+  public struct TedeeSoftwareVersion : Swift.Encodable {
+    public let softwareType: Swift.Int
+    public let version: Swift.String
+    public func encode(to encoder: any Swift.Encoder) throws
+  }
+  public struct TedeeDeviceSettings : Swift.Encodable {
+    public let autoLockEnabled: Swift.Bool
+    public let autoLockDelay: Swift.Int
+    public let autoLockImplicitEnabled: Swift.Bool
+    public let autoLockImplicitDelay: Swift.Int
+    public let pullSpringEnabled: Swift.Bool
+    public let pullSpringDuration: Swift.Int
+    public let autoPullSpringEnabled: Swift.Bool
+    public let postponedLockEnabled: Swift.Bool
+    public let postponedLockDelay: Swift.Int
+    public let buttonLockEnabled: Swift.Bool
+    public let buttonUnlockEnabled: Swift.Bool
+    public func encode(to encoder: any Swift.Encoder) throws
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+}
 public struct TedeeCertificate {
   public let certificate: Swift.String
   public let expirationDate: Foundation.Date
@@ -56,63 +87,6 @@ public struct TedeeConnectionStatus {
     }
   }
 }
-@_hasMissingDesignatedInitializers final public class TedeeLockManager {
-  public static let shared: TedeeLock.TedeeLockManager
-  final public var signedDateTimeProvider: (any TedeeLock.TedeeSignedDateTimeProvider)?
-  public static var publicKey: Swift.String {
-    get
-  }
-  final public var connectionStatusStream: _Concurrency.AsyncStream<TedeeLock.TedeeConnectionStatus> {
-    get
-    set
-  }
-  final public var notificationsStream: _Concurrency.AsyncStream<(TedeeLock.TedeeNotification)> {
-    get
-    set
-  }
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func connect(_ serialNumber: TedeeLock.TedeeSerialNumber, certificate: TedeeLock.TedeeCertificate, keepConnection: Swift.Bool = false) async throws
-  #endif
-  final public func isConnected(_ serialNumber: TedeeLock.TedeeSerialNumber) -> Swift.Bool
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func disconnect(_ serialNumber: TedeeLock.TedeeSerialNumber) async throws
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func sendCommand(_ serialNumber: TedeeLock.TedeeSerialNumber, command: Swift.UInt8, parameters: [Swift.UInt8] = []) async throws -> (Swift.UInt8, [Swift.UInt8]?)
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func getLockState(_ serialNumber: TedeeLock.TedeeSerialNumber) async throws -> TedeeLock.TedeeLockState
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func openLock(_ serialNumber: TedeeLock.TedeeSerialNumber, parameter: TedeeLock.TedeeLockOperationParameters = .none) async throws -> TedeeLock.TedeeLockOperationResult
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func closeLock(_ serialNumber: TedeeLock.TedeeSerialNumber, parameter: TedeeLock.TedeeLockOperationParameters = .none) async throws -> TedeeLock.TedeeLockOperationResult
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func pullLock(_ serialNumber: TedeeLock.TedeeSerialNumber) async throws -> TedeeLock.TedeeLockOperationResult
-  #endif
-  @objc deinit
-}
-extension TedeeLock.TedeeLockManager {
-  public enum Errors : Swift.Error {
-    case notFound
-    case systemPermissions
-    case deviceNotInitialized
-    case invalidCertificate
-    case secureSessionFailed
-    case notConnected
-    case alreadyConnecting
-    case alreadyConnected
-    case cantSendCommand
-    case cantParseResponse
-    case waitingForResponse
-    case disconnected
-    case missingSignedDateTime
-    case signedDateTimeProvider(any Swift.Error)
-    case invalidResponse
-  }
-}
 public enum TedeeLockOperationParameters : Swift.UInt8 {
   case none
   case auto
@@ -137,6 +111,7 @@ public enum TedeeLockOperationResult : Swift.UInt8 {
   case notCalibrated
   case unlockAlreadyCalledByAutounlock
   case unlockAlreadyCalledByOtherOperation
+  case noPermission
   case notConfigured
   case dismounted
   public init?(rawValue: Swift.UInt8)
@@ -183,6 +158,13 @@ public struct TedeeNotification {
     case generic([Swift.UInt8])
   }
 }
+public struct TedeeRegisterLock {
+  public let revision: Swift.Int
+  public let targetDeviceRevision: Swift.Int
+  public let id: Swift.Int
+  public let authPublicKey: Swift.String
+  public init(revision: Swift.Int, targetDeviceRevision: Swift.Int, id: Swift.Int, authPublicKey: Swift.String)
+}
 public struct TedeeSerialNumber {
   public let serialNumber: Swift.String
   public init(serialNumber: Swift.String) throws
@@ -196,6 +178,79 @@ extension TedeeLock.TedeeSerialNumber {
     public var hashValue: Swift.Int {
       get
     }
+  }
+}
+extension TedeeLock.TedeeLockManager {
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func connect(_ serialNumber: TedeeLock.TedeeSerialNumber, certificate: TedeeLock.TedeeCertificate, keepConnection: Swift.Bool = false) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func sendCommand(_ serialNumber: TedeeLock.TedeeSerialNumber, command: Swift.UInt8, parameters: [Swift.UInt8] = []) async throws -> (Swift.UInt8, [Swift.UInt8]?)
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func getLockState(_ serialNumber: TedeeLock.TedeeSerialNumber) async throws -> TedeeLock.TedeeLockState
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func openLock(_ serialNumber: TedeeLock.TedeeSerialNumber, parameter: TedeeLock.TedeeLockOperationParameters = .none) async throws -> TedeeLock.TedeeLockOperationResult
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func closeLock(_ serialNumber: TedeeLock.TedeeSerialNumber, parameter: TedeeLock.TedeeLockOperationParameters = .none) async throws -> TedeeLock.TedeeLockOperationResult
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func pullLock(_ serialNumber: TedeeLock.TedeeSerialNumber) async throws -> TedeeLock.TedeeLockOperationResult
+  #endif
+}
+extension TedeeLock.TedeeLockManager {
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func unsecureConnect(_ serialNumber: TedeeLock.TedeeSerialNumber) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func getAddLockData(_ serialNumber: TedeeLock.TedeeSerialNumber) async throws -> TedeeLock.TedeeAddLock
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func registerLock(_ serialNumber: TedeeLock.TedeeSerialNumber, registration: TedeeLock.TedeeRegisterLock) async throws
+  #endif
+}
+@_hasMissingDesignatedInitializers final public class TedeeLockManager {
+  public static let shared: TedeeLock.TedeeLockManager
+  final public var signedDateTimeProvider: (any TedeeLock.TedeeSignedDateTimeProvider)?
+  public static var publicKey: Swift.String {
+    get
+  }
+  final public var connectionStatusStream: _Concurrency.AsyncStream<TedeeLock.TedeeConnectionStatus> {
+    get
+    set
+  }
+  final public var notificationsStream: _Concurrency.AsyncStream<(TedeeLock.TedeeNotification)> {
+    get
+    set
+  }
+  final public func isConnected(_ serialNumber: TedeeLock.TedeeSerialNumber) -> Swift.Bool
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func disconnect(_ serialNumber: TedeeLock.TedeeSerialNumber) async throws
+  #endif
+  @objc deinit
+}
+extension TedeeLock.TedeeLockManager {
+  public enum Errors : Swift.Error {
+    case notFound
+    case systemPermissions
+    case deviceNotInitialized
+    case invalidCertificate
+    case secureSessionFailed
+    case noPermission
+    case notConnected
+    case alreadyConnecting
+    case alreadyConnected
+    case alreadyRegistered
+    case cantSendCommand
+    case cantParseResponse
+    case waitingForResponse
+    case disconnected
+    case missingSignedDateTime
+    case signedDateTimeProvider(any Swift.Error)
+    case invalidResponse
+    case invalidParameters
   }
 }
 public struct TedeeSignedDateTime {

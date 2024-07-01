@@ -6,151 +6,151 @@
 	<dict>
 		<key>ios-arm64/TedeeLock.framework/Info.plist</key>
 		<data>
-		3P4kqpYU7kOrymwJOplCGYY75wc=
+		Nu7O6L8Hu2UKFwWZxRno7cJ+g2k=
 		</data>
 		<key>ios-arm64/TedeeLock.framework/Modules/TedeeLock.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		+2TFjDekljB4BPk3dw5MsNWkmF4=
+		CH1OkknH8804rnr8YalYjHqoluI=
 		</data>
 		<key>ios-arm64/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		PY0W8XjYDRSp7AU+RWQY82CC5TM=
+		2pmW/hWTZthPT3+ex/MkMqGNC3E=
 		</data>
 		<key>ios-arm64/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		3bwt1UAs2jg9WccbPPxbSANetok=
+		y3BMcjLNwK6rn6olJiHSqhnWbrE=
 		</data>
 		<key>ios-arm64/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		GC9YoUbawLkgv+QufPv4ynVA0gE=
+		7QGcr94nxzFrBX4DrPHkMooEbs4=
 		</data>
 		<key>ios-arm64/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		3bwt1UAs2jg9WccbPPxbSANetok=
+		y3BMcjLNwK6rn6olJiHSqhnWbrE=
 		</data>
 		<key>ios-arm64/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		xZiqXnQD/QCEcrryjS29faP72jI=
+		yXE1R0diHRhYdK4uEZij/APpf/E=
 		</data>
 		<key>ios-arm64/TedeeLock.framework/TedeeLock</key>
 		<data>
-		z2s+IiL4SeL5vMIar9+OaO1BJyw=
+		lRmeE8WfmbiL1ke2TTZ0zZikVNQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Info.plist</key>
 		<data>
-		9KHiZCeCJZuSqQMz7AVV4GnAnoU=
+		Fy5Zos+9ELHmN/bbAiP7rcoG128=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		AKdKaE4abpWftUpHTSkaMV8Kcmg=
+		Dtl2FLqx0tuqjVuooSQwigoH6+g=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		y+j3QlOGamSoOmlAn1/XQ5RwW6s=
+		d6ojnu5SnKDI9t9vwG1XHImKVlM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		PY0W8XjYDRSp7AU+RWQY82CC5TM=
+		2pmW/hWTZthPT3+ex/MkMqGNC3E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		5I9Xrngw8Fwe2a/iUgXBb1etxQM=
+		4DWXMuGDIT95tzNPs19SlgoZ/wA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zIXiXmaDhTPJjdTLGrP9YkROfvU=
+		i8pON2+10WkX4jlzXMUQ/aHRdy0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5I9Xrngw8Fwe2a/iUgXBb1etxQM=
+		4DWXMuGDIT95tzNPs19SlgoZ/wA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		F62zkp4gi33oNwv/Uka5asFViTQ=
+		wl+ud1cOlv/8HXyCZnuwplJscMY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		PY0W8XjYDRSp7AU+RWQY82CC5TM=
+		2pmW/hWTZthPT3+ex/MkMqGNC3E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EsznYj+4Fecp/j7paodBP7Ntc7o=
+		2e2rMo4++0/09+3xskBWMYJDHfw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9hp6XsvaExtrjvPr1ypoErtmbWs=
+		LZvL3rbVnSvS0OozUDYAqhXweSY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EsznYj+4Fecp/j7paodBP7Ntc7o=
+		2e2rMo4++0/09+3xskBWMYJDHfw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1t/uzCPR4zQSLQyc7DwjM4hdxKY=
+		bMW5TGA9EnGtCCQyK52bX9y0WuE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/TedeeLock</key>
 		<data>
-		R/5v6SOiEoalNmRgbC1FERl2cLw=
+		agyWLfstK7k7XxeD/LOTD01HQJU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/_CodeSignature/CodeResources</key>
 		<data>
-		iFQr30zXtL2odG7mGnOgWK+qXBA=
+		kX9ZY1ZHbw8lISTuQPtZK3HBm3w=
 		</data>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo</key>
 		<data>
-		Clft5UtVQQZ1LK29x4yTCE8BT1Y=
+		7QUgZH+bQBvqR/4CQE/BuqpwMT8=
 		</data>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<data>
-		Hs+gv9M68hBtKnDOeKYKnftjzmc=
+		VQyKcS48T1otvXnIV+ODMFCOvqo=
 		</data>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/arm64-apple-macos.abi.json</key>
 		<data>
-		PY0W8XjYDRSp7AU+RWQY82CC5TM=
+		2pmW/hWTZthPT3+ex/MkMqGNC3E=
 		</data>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<data>
-		nRRqleC1lJ7k+Cg89IlqtWI0bDU=
+		c6LL9jBWv833eFe3tyLW9mBvwgQ=
 		</data>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<data>
-		1dyVaWIrRhWaZBZTcYgukKvZw+Q=
+		toaVOfnmo1v6x2S5spLI87p2kU4=
 		</data>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<data>
-		nRRqleC1lJ7k+Cg89IlqtWI0bDU=
+		c6LL9jBWv833eFe3tyLW9mBvwgQ=
 		</data>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<data>
-		eBWLAHH0p9G+V680Y2VfXBhZcQs=
+		2pLEbHVYehYgp0+VP+zmjpawSvA=
 		</data>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<data>
-		PY0W8XjYDRSp7AU+RWQY82CC5TM=
+		2pmW/hWTZthPT3+ex/MkMqGNC3E=
 		</data>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<data>
-		ASe8TDyUXWK6NPtIB5V8VPBLoXA=
+		+DJ7aunnzkVf9T0oRUN3GSvomqc=
 		</data>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<data>
-		MMP9/qbgTsjnvxu66EYZhVbd2Fk=
+		LzgsSqdMebTHLm7FNPeNZmf/c4s=
 		</data>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<data>
-		ASe8TDyUXWK6NPtIB5V8VPBLoXA=
+		+DJ7aunnzkVf9T0oRUN3GSvomqc=
 		</data>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<data>
-		3w9ftctXGDmHFrGXztMvPqQo1nE=
+		3hIpf2aN9p6pbKGRi09a51qMT5Y=
 		</data>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		A8odEbvDChAjw95upp4YHphj6GE=
+		voTJdAVx/s/mllzIJ2obVwB9liY=
 		</data>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/TedeeLock</key>
 		<data>
-		AhKHKU0Ge6gXLb9Gsub3r/2kr6c=
+		cA9NqRuifKUQJ8qr6O58ezPze+M=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -159,259 +159,259 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3P4kqpYU7kOrymwJOplCGYY75wc=
+			Nu7O6L8Hu2UKFwWZxRno7cJ+g2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			aASci/nG5qHMPFL2WT7oxheexowMMi8ilWa3HE32ygs=
+			866yilrD3WIXdC5Kc3BYC2Jd6sf5WyqCknhWDIL3oOU=
 			</data>
 		</dict>
 		<key>ios-arm64/TedeeLock.framework/Modules/TedeeLock.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+2TFjDekljB4BPk3dw5MsNWkmF4=
+			CH1OkknH8804rnr8YalYjHqoluI=
 			</data>
 			<key>hash2</key>
 			<data>
-			n1v69+DN2l5fqBsUjsJEEkJhV3evXxV4DKHZKRMwOwU=
+			hXCFRXG2WmfiTB4xjCqZIxPP4O1thWXOs45qeYlaxUw=
 			</data>
 		</dict>
 		<key>ios-arm64/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PY0W8XjYDRSp7AU+RWQY82CC5TM=
+			2pmW/hWTZthPT3+ex/MkMqGNC3E=
 			</data>
 			<key>hash2</key>
 			<data>
-			eFlX+85MnJAt4whN3sSISAW2W/8MBbI52eYmBkldlzw=
+			GlQISG2F39vkY2qcZOlo2k5vT34PIYrQgtZCuPuYvlQ=
 			</data>
 		</dict>
 		<key>ios-arm64/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3bwt1UAs2jg9WccbPPxbSANetok=
+			y3BMcjLNwK6rn6olJiHSqhnWbrE=
 			</data>
 			<key>hash2</key>
 			<data>
-			TVzC3HzIFjTZrpN6Wx7QnvHlP6qz5YvSRInLfgO2FwE=
+			ccKywrh4DhZ4WCSWJuzhIPPg5Bu4O46HGZE7fxH4FOA=
 			</data>
 		</dict>
 		<key>ios-arm64/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GC9YoUbawLkgv+QufPv4ynVA0gE=
+			7QGcr94nxzFrBX4DrPHkMooEbs4=
 			</data>
 			<key>hash2</key>
 			<data>
-			X2NJikhQSo/9spTMqmcDoFkhH7d4ynMXwkFD/ghmoSI=
+			eNQR+ja/3E1q2iHlYMiEHXu05KxLmXAIskPyesIlvC8=
 			</data>
 		</dict>
 		<key>ios-arm64/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3bwt1UAs2jg9WccbPPxbSANetok=
+			y3BMcjLNwK6rn6olJiHSqhnWbrE=
 			</data>
 			<key>hash2</key>
 			<data>
-			TVzC3HzIFjTZrpN6Wx7QnvHlP6qz5YvSRInLfgO2FwE=
+			ccKywrh4DhZ4WCSWJuzhIPPg5Bu4O46HGZE7fxH4FOA=
 			</data>
 		</dict>
 		<key>ios-arm64/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xZiqXnQD/QCEcrryjS29faP72jI=
+			yXE1R0diHRhYdK4uEZij/APpf/E=
 			</data>
 			<key>hash2</key>
 			<data>
-			D27Zxw0DwAPQvoCrjkJtNvFE12HQ1YDGIWYvGOK7Bn8=
+			rNSOu4HrUMKj84oPeGNN+1V8BfdnGcbXOPfu8sHR/W8=
 			</data>
 		</dict>
 		<key>ios-arm64/TedeeLock.framework/TedeeLock</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z2s+IiL4SeL5vMIar9+OaO1BJyw=
+			lRmeE8WfmbiL1ke2TTZ0zZikVNQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ne/6fqgxNqatg3MytillDgC8ys5PcEi6j9SLiBmScFw=
+			9CtiC+RTSBUTy+qjURo4xjstsjceI5Rxp21yCXftsFI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9KHiZCeCJZuSqQMz7AVV4GnAnoU=
+			Fy5Zos+9ELHmN/bbAiP7rcoG128=
 			</data>
 			<key>hash2</key>
 			<data>
-			96GNbwmJ+WB0YAu4eyfKb0usFQ/ztbTtw2fIxYZRzpw=
+			utB67vF1TvZleerM5Izi6rnoaD9CRVmHT5ykwRUloMk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AKdKaE4abpWftUpHTSkaMV8Kcmg=
+			Dtl2FLqx0tuqjVuooSQwigoH6+g=
 			</data>
 			<key>hash2</key>
 			<data>
-			l0yvo8Ze0A+IFozsitHGi9oA8U8UrKKcnrKAgCRb6EE=
+			HUO85zR2m4zFh9faPsZ3w/M5o74Wc3RciuvqptJqcS8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y+j3QlOGamSoOmlAn1/XQ5RwW6s=
+			d6ojnu5SnKDI9t9vwG1XHImKVlM=
 			</data>
 			<key>hash2</key>
 			<data>
-			EgMVmIPwEeU0zX8jZ3G21OW1TU6N0Tepmf+E27K1dDY=
+			+Xl/JkUTVOEtNRCKXGVFE3C/6+bnfFxwb8eYHeTKiUU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PY0W8XjYDRSp7AU+RWQY82CC5TM=
+			2pmW/hWTZthPT3+ex/MkMqGNC3E=
 			</data>
 			<key>hash2</key>
 			<data>
-			eFlX+85MnJAt4whN3sSISAW2W/8MBbI52eYmBkldlzw=
+			GlQISG2F39vkY2qcZOlo2k5vT34PIYrQgtZCuPuYvlQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5I9Xrngw8Fwe2a/iUgXBb1etxQM=
+			4DWXMuGDIT95tzNPs19SlgoZ/wA=
 			</data>
 			<key>hash2</key>
 			<data>
-			2RSMy5WjmOleaXi6hl/yhht7PKskl1WU9E5HuUm2YMs=
+			bVrXjv8AePr6HuXDAguWawp3Y8AgTM0sTx4xQvg7PZ4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zIXiXmaDhTPJjdTLGrP9YkROfvU=
+			i8pON2+10WkX4jlzXMUQ/aHRdy0=
 			</data>
 			<key>hash2</key>
 			<data>
-			7gi+QFOGbrR9Qd7IDYdeb7XjDgKH3OoDITqoqOflGRY=
+			ElNkKWIlfs1RoIv4wWTV/vwhSH6nQzkYE/u8Fe5xobI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5I9Xrngw8Fwe2a/iUgXBb1etxQM=
+			4DWXMuGDIT95tzNPs19SlgoZ/wA=
 			</data>
 			<key>hash2</key>
 			<data>
-			2RSMy5WjmOleaXi6hl/yhht7PKskl1WU9E5HuUm2YMs=
+			bVrXjv8AePr6HuXDAguWawp3Y8AgTM0sTx4xQvg7PZ4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			F62zkp4gi33oNwv/Uka5asFViTQ=
+			wl+ud1cOlv/8HXyCZnuwplJscMY=
 			</data>
 			<key>hash2</key>
 			<data>
-			F5AcHbfSul7WU4AAScGz5J3JcppuHsHA5iZKNVbUV+c=
+			mSRIM6g4ilmv8+imALkBMSkkRBPtFQoRgNqBZAin/TY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PY0W8XjYDRSp7AU+RWQY82CC5TM=
+			2pmW/hWTZthPT3+ex/MkMqGNC3E=
 			</data>
 			<key>hash2</key>
 			<data>
-			eFlX+85MnJAt4whN3sSISAW2W/8MBbI52eYmBkldlzw=
+			GlQISG2F39vkY2qcZOlo2k5vT34PIYrQgtZCuPuYvlQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EsznYj+4Fecp/j7paodBP7Ntc7o=
+			2e2rMo4++0/09+3xskBWMYJDHfw=
 			</data>
 			<key>hash2</key>
 			<data>
-			+LgUcIGRoz30DWOCH7hPVyyCq+EPQ2tcibJlC0owYmo=
+			e85N+5qkITxF2v8DVQxwMo8aKGg6oLozhlN4X79nKWE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9hp6XsvaExtrjvPr1ypoErtmbWs=
+			LZvL3rbVnSvS0OozUDYAqhXweSY=
 			</data>
 			<key>hash2</key>
 			<data>
-			uT3jnVBCo13fENEWNUZvcVijniq4xJAt7dW4Gku0vp0=
+			AZmA/EtJr7tCUtoQSWj4LEea0qu8ekJ5W9DIuzsnYcY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EsznYj+4Fecp/j7paodBP7Ntc7o=
+			2e2rMo4++0/09+3xskBWMYJDHfw=
 			</data>
 			<key>hash2</key>
 			<data>
-			+LgUcIGRoz30DWOCH7hPVyyCq+EPQ2tcibJlC0owYmo=
+			e85N+5qkITxF2v8DVQxwMo8aKGg6oLozhlN4X79nKWE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/Modules/TedeeLock.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1t/uzCPR4zQSLQyc7DwjM4hdxKY=
+			bMW5TGA9EnGtCCQyK52bX9y0WuE=
 			</data>
 			<key>hash2</key>
 			<data>
-			4ueD5RU/Rl0eaiw6TeI7U2Dyn+ut81bHSHMKLF0reLc=
+			J2MWrUhWfhp3wrqO2UKkTmBtAtGL1jndzutgbY7i7dk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/TedeeLock</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R/5v6SOiEoalNmRgbC1FERl2cLw=
+			agyWLfstK7k7XxeD/LOTD01HQJU=
 			</data>
 			<key>hash2</key>
 			<data>
-			SBEmFk4kFXmv2JoU+OhJYsMxl1KTctp06t40x+sBDzA=
+			VVhennah1mA+4hTjJiC0LvEtaPOKQnvfr/F3tAcsGyo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TedeeLock.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iFQr30zXtL2odG7mGnOgWK+qXBA=
+			kX9ZY1ZHbw8lISTuQPtZK3HBm3w=
 			</data>
 			<key>hash2</key>
 			<data>
-			6hfaLm2Qt75RlXzSsu5JWLhmWe9kAKGktFknB0GrYlc=
+			m4OmOyOv1OJy0cv8Y1H4Q+KJnpYccU1XCAIFfj9p5m8=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Modules</key>
 		<dict>
 			<key>symlink</key>
-			<string>/Users/pawelmadej/Developer/tedee-lock-sdk-private/TedeeLock.xcframework/macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules</string>
+			<string>/Users/mateuszsamosij/Projects/Tedee/tedee-iOS-lock-sdk/Product/TedeeLock.xcframework/macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules</string>
 		</dict>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Resources</key>
 		<dict>
@@ -427,154 +427,154 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Clft5UtVQQZ1LK29x4yTCE8BT1Y=
+			7QUgZH+bQBvqR/4CQE/BuqpwMT8=
 			</data>
 			<key>hash2</key>
 			<data>
-			YUlKk6kPHb80QaAkq2GgQqvB/P3iOwVzxjuCg3RpZ/A=
+			NQtRd0Rm7gXAWS3a1HptIG+wu7mKVDTbFOujP/RNOcc=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Hs+gv9M68hBtKnDOeKYKnftjzmc=
+			VQyKcS48T1otvXnIV+ODMFCOvqo=
 			</data>
 			<key>hash2</key>
 			<data>
-			SvJXbZ5BGFuVN2Fbejy4+0mHSxFHqrhlZQPM0HzhOpE=
+			9YdbDTRlwFkPRxoXiq6vJ350Az/1wZbSK6wXBX+LSLo=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/arm64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PY0W8XjYDRSp7AU+RWQY82CC5TM=
+			2pmW/hWTZthPT3+ex/MkMqGNC3E=
 			</data>
 			<key>hash2</key>
 			<data>
-			eFlX+85MnJAt4whN3sSISAW2W/8MBbI52eYmBkldlzw=
+			GlQISG2F39vkY2qcZOlo2k5vT34PIYrQgtZCuPuYvlQ=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nRRqleC1lJ7k+Cg89IlqtWI0bDU=
+			c6LL9jBWv833eFe3tyLW9mBvwgQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			vO2B9YGU0Mi98Febw4z1yQ1fu50hjuqwVK0Aq9hMbWM=
+			U6AkIoUlyV22DSECLXDxGu+84LDGbrJmyetqaxMi+yU=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1dyVaWIrRhWaZBZTcYgukKvZw+Q=
+			toaVOfnmo1v6x2S5spLI87p2kU4=
 			</data>
 			<key>hash2</key>
 			<data>
-			DhtLNCIMEJsm+to7sPbBmjmwwoONCtyPd1SHBpi9Xes=
+			KdlgBhtb6hiViK4S0YRVk/HSkhb3M7dvgfsyPbDlTO4=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nRRqleC1lJ7k+Cg89IlqtWI0bDU=
+			c6LL9jBWv833eFe3tyLW9mBvwgQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			vO2B9YGU0Mi98Febw4z1yQ1fu50hjuqwVK0Aq9hMbWM=
+			U6AkIoUlyV22DSECLXDxGu+84LDGbrJmyetqaxMi+yU=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eBWLAHH0p9G+V680Y2VfXBhZcQs=
+			2pLEbHVYehYgp0+VP+zmjpawSvA=
 			</data>
 			<key>hash2</key>
 			<data>
-			3QDq5/k8X/K2AL7spMLCwob2qH/5pzk3WMAFU0hWls0=
+			g80jyMcj3ESI9UHUaNPI9iTOzAHzVQ933RnNEFMQ4+4=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PY0W8XjYDRSp7AU+RWQY82CC5TM=
+			2pmW/hWTZthPT3+ex/MkMqGNC3E=
 			</data>
 			<key>hash2</key>
 			<data>
-			eFlX+85MnJAt4whN3sSISAW2W/8MBbI52eYmBkldlzw=
+			GlQISG2F39vkY2qcZOlo2k5vT34PIYrQgtZCuPuYvlQ=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ASe8TDyUXWK6NPtIB5V8VPBLoXA=
+			+DJ7aunnzkVf9T0oRUN3GSvomqc=
 			</data>
 			<key>hash2</key>
 			<data>
-			8Q8YHC4sNZ4m6C2C6LQ3mFIlljBvDnqPpujmoR4kGuY=
+			ofcov7DzAtM0qYC5JOhwsDxbu6sQZ0GqTBoAlU+m3tU=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MMP9/qbgTsjnvxu66EYZhVbd2Fk=
+			LzgsSqdMebTHLm7FNPeNZmf/c4s=
 			</data>
 			<key>hash2</key>
 			<data>
-			t2z33LokeZ0j5oQxCUnK7fOrpYchRjwII/O0tUdFkh0=
+			YyjouYZZeijTsJMMto6OSHDo61BZcAHekjMYRYGIons=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ASe8TDyUXWK6NPtIB5V8VPBLoXA=
+			+DJ7aunnzkVf9T0oRUN3GSvomqc=
 			</data>
 			<key>hash2</key>
 			<data>
-			8Q8YHC4sNZ4m6C2C6LQ3mFIlljBvDnqPpujmoR4kGuY=
+			ofcov7DzAtM0qYC5JOhwsDxbu6sQZ0GqTBoAlU+m3tU=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Modules/TedeeLock.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3w9ftctXGDmHFrGXztMvPqQo1nE=
+			3hIpf2aN9p6pbKGRi09a51qMT5Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			nZ+LHqgf0b2epYNhdsIs++BX2qmyRhAXFL8QRh4LpcA=
+			MnG583BzzwWDs4/Pk/v81W2TGCHi95AiME52f7FInaI=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A8odEbvDChAjw95upp4YHphj6GE=
+			voTJdAVx/s/mllzIJ2obVwB9liY=
 			</data>
 			<key>hash2</key>
 			<data>
-			3Ox0+0b5Lbvbn4Rc95S0kD9SZU2HGMMT3HqaaMjJNSE=
+			qfru7NmvjXoDQoejHlT4ybH5g9abd0k2AY86B2LcyiY=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/A/TedeeLock</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AhKHKU0Ge6gXLb9Gsub3r/2kr6c=
+			cA9NqRuifKUQJ8qr6O58ezPze+M=
 			</data>
 			<key>hash2</key>
 			<data>
-			ID9qz9Y7SpjFirom+9MTE5FY9xxbp91dpyyUU3L+nWg=
+			OKD/OcClXPVbFJAZU2Lzwsppr2YJ0iKnu9KgjuSqQ6A=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/TedeeLock.framework/Versions/Current</key>

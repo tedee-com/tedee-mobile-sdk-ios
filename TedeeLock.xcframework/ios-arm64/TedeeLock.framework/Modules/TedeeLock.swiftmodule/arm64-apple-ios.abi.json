@@ -10105,14 +10105,14 @@
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/TedeeLockManager+SecureConnection.swift",
       "kind": "Array",
-      "offset": 5313,
+      "offset": 5140,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/TedeeLockManager+UnsecureConnection.swift",
       "kind": "Array",
-      "offset": 9554,
+      "offset": 9414,
       "length": 2,
       "value": "[]"
     },

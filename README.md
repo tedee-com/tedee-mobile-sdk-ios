@@ -73,7 +73,10 @@ For any inquiries, feedback, or assistance, our iOS team is here to help. Reach 
 
 We're excited to witness the innovative solutions you create with the Tedee Mobile SDK! Happy coding! 🚀
 
-
 ### Credits
 
 This product includes software developed by the "Marcin Krzyzanowski" (http://krzyzanowskim.com/).
+
+### Legal Notice
+
+By using the Tedee Mobile SDK, you agree to the terms of the [LICENSE](./LICENSE.md) and the [LEGAL_NOTES](./LEGAL_NOTES.md). Please review these documents before integrating or distributing the SDK.

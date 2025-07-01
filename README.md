@@ -79,4 +79,4 @@ This product includes software developed by the "Marcin Krzyzanowski" (http://kr
 
 ### Legal Notice
 
-By using the Tedee Mobile SDK, you agree to the terms of the [LICENSE](./LICENSE.md) and the [LEGAL_NOTES](./LEGAL_NOTES.md). Please review these documents before integrating or distributing the SDK.
+By using the Tedee Mobile SDK, you agree to the terms of the [LICENSE](./LICENSE.md) and the [Terms of Use Tedee APIs and SDKs](https://tedee.com/terms-of-use-tedee-apis-and-sdks/). Please review these documents before integrating or distributing the SDK.

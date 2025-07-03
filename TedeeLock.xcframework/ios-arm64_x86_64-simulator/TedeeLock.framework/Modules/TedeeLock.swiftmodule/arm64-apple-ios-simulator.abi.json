@@ -1,9 +1,30 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "TedeeLock",
+    "printedName": "TedeeLock",
     "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TedeeLock"
+      },
       {
         "kind": "Import",
         "name": "Foundation",
@@ -1207,10 +1228,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -1674,6 +1716,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -1711,6 +1767,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Sendable",
@@ -2119,6 +2189,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -2130,6 +2214,13 @@
                 "printedName": "Hashable",
                 "usr": "s:SH",
                 "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
               }
             ]
           }
@@ -2141,6 +2232,29 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -2678,10 +2792,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -3126,6 +3261,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3159,6 +3308,13 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -3661,6 +3817,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3694,6 +3864,13 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -4284,6 +4461,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -4295,6 +4486,13 @@
                 "printedName": "Hashable",
                 "usr": "s:SH",
                 "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
               }
             ]
           },
@@ -4484,6 +4682,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -4495,6 +4707,13 @@
                 "printedName": "Hashable",
                 "usr": "s:SH",
                 "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
               }
             ]
           }
@@ -4505,6 +4724,29 @@
         "moduleName": "TedeeLock",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -4732,6 +4974,29 @@
             "moduleName": "TedeeLock",
             "declAttributes": [
               "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
             ]
           }
         ],
@@ -4741,6 +5006,29 @@
         "moduleName": "TedeeLock",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -4986,6 +5274,22 @@
         "moduleName": "TedeeLock",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5270,6 +5574,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -5308,6 +5626,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Sendable",
@@ -5456,10 +5788,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -7118,6 +7471,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Error",
                 "printedName": "Error",
                 "usr": "s:s5ErrorP",
@@ -7145,17 +7512,24 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Actor",
             "printedName": "Actor",
             "usr": "s:ScA",
             "mangledName": "$sScA"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AnyActor",
-            "printedName": "AnyActor",
-            "usr": "s:12_Concurrency8AnyActorP",
-            "mangledName": "$ss8AnyActorP"
           },
           {
             "kind": "Conformance",
@@ -7313,6 +7687,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -7369,6 +7757,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
           {
             "kind": "Conformance",
             "name": "Sendable",
@@ -7527,6 +7929,20 @@
             "printedName": "Comparable",
             "usr": "s:SL",
             "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -7690,6 +8106,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -7889,6 +8312,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -8059,6 +8496,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -8107,6 +8551,34 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/.derivedData\/Build\/Intermediates.noindex\/TedeeLock.build\/release-iphonesimulator\/TedeeLock.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 21,
+      "value": "\"TedeeLock_TedeeLock\""
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/.derivedData\/Build\/Intermediates.noindex\/TedeeLock.build\/release-iphonesimulator\/TedeeLock.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "Array",
+      "offset": 963,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/.derivedData\/Build\/Intermediates.noindex\/TedeeLock.build\/release-iphonesimulator\/TedeeLock.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1490,
+      "length": 9,
+      "value": "\".bundle\""
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/.derivedData\/Build\/Intermediates.noindex\/TedeeLock.build\/release-iphonesimulator\/TedeeLock.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1642,
+      "length": 49,
+      "value": "\"unable to find bundle named TedeeLock_TedeeLock\""
+    },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/CentralManagerDelegate.swift",
       "kind": "BooleanLiteral",
@@ -8271,37 +8743,9 @@
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/Security\/SecuritySession.swift",
       "kind": "BooleanLiteral",
-      "offset": 3138,
+      "offset": 3148,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/SecurityHeader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 152,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/SecurityHeader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 175,
-      "length": 4,
-      "value": "0x01"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/SecurityHeader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 152,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/SecurityHeader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 175,
-      "length": 4,
-      "value": "0x01"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Bluetooth\/SecurityHeader.swift",
@@ -8358,48 +8802,6 @@
       "offset": 1556,
       "length": 2,
       "value": "12"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/AES.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1284,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/AES.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1287,
-      "length": 6,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/AES.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1295,
-      "length": 6,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/AES.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1284,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/AES.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1287,
-      "length": 6,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/AES.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1295,
-      "length": 6,
-      "value": "3"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/AES.swift",
@@ -8563,90 +8965,6 @@
       "value": "0x04"
     },
     {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/ASN1\/ASN1.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1498,
-      "length": 4,
-      "value": "0x30"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/ASN1\/ASN1.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1523,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/ASN1\/ASN1.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1548,
-      "length": 4,
-      "value": "0x06"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/ASN1\/ASN1.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1569,
-      "length": 4,
-      "value": "0x05"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/ASN1\/ASN1.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1595,
-      "length": 4,
-      "value": "0x03"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/ASN1\/ASN1.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1623,
-      "length": 4,
-      "value": "0x04"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/ASN1\/ASN1.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1498,
-      "length": 4,
-      "value": "0x30"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/ASN1\/ASN1.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1523,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/ASN1\/ASN1.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1548,
-      "length": 4,
-      "value": "0x06"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/ASN1\/ASN1.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1569,
-      "length": 4,
-      "value": "0x05"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/ASN1\/ASN1.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1595,
-      "length": 4,
-      "value": "0x03"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/ASN1\/ASN1.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1623,
-      "length": 4,
-      "value": "0x04"
-    },
-    {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/ASN1\/ASN1Scanner.swift",
       "kind": "IntegerLiteral",
       "offset": 1226,
@@ -8666,20 +8984,6 @@
       "offset": 3599,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/Bit.swift",
-      "kind": "IntegerLiteral",
-      "offset": 951,
-      "length": 3,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/Bit.swift",
-      "kind": "IntegerLiteral",
-      "offset": 951,
-      "length": 3,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/Bit.swift",
@@ -8806,34 +9110,6 @@
       "offset": 8043,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/BlockMode\/CFB.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1105,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/BlockMode\/CFB.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1150,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/BlockMode\/CFB.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1105,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/BlockMode\/CFB.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1150,
-      "length": 2,
-      "value": "16"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/BlockMode\/CFB.swift",
@@ -9044,6 +9320,181 @@
       "offset": 2389,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Codable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 662,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Codable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1820,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Codable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1858,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Codable.swift",
+      "kind": "Array",
+      "offset": 1876,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Codable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2480,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Codable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2814,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Codable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2876,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Codable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2898,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Codable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3161,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Codable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3187,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Codable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3240,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Codable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3319,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Data Conversion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2466,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Data Conversion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2471,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Data Conversion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2516,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Data Conversion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2521,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Data Conversion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2550,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Data Conversion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2754,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Data Conversion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2822,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Data Conversion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2844,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Data Conversion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2888,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Data Conversion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2923,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Data Conversion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2953,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Data Conversion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2996,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Data Conversion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3076,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/CryptoSwift\/CS_BigInt\/Multiplication.swift",
@@ -9655,443 +10106,135 @@
       "value": "0x02"
     },
     {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeCommandResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 181,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeCommandResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 254,
-      "length": 4,
-      "value": "0x01"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeCommandResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 300,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeCommandResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 181,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeCommandResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 254,
-      "length": 4,
-      "value": "0x01"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeCommandResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 300,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 227,
+      "offset": 237,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 311,
+      "offset": 321,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 430,
+      "offset": 440,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 463,
+      "offset": 473,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 492,
+      "offset": 502,
       "length": 4,
       "value": "0x04"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 523,
+      "offset": 533,
       "length": 4,
       "value": "0x05"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 553,
+      "offset": 563,
       "length": 4,
       "value": "0x06"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 592,
+      "offset": 602,
       "length": 4,
       "value": "0x07"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 633,
-      "length": 4,
-      "value": "0x08"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 227,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 311,
-      "length": 4,
-      "value": "0x01"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 430,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 463,
-      "length": 4,
-      "value": "0x03"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 492,
-      "length": 4,
-      "value": "0x04"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 523,
-      "length": 4,
-      "value": "0x05"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 553,
-      "length": 4,
-      "value": "0x06"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 592,
-      "length": 4,
-      "value": "0x07"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 633,
-      "length": 4,
-      "value": "0x08"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 227,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 311,
-      "length": 4,
-      "value": "0x01"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 430,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 463,
-      "length": 4,
-      "value": "0x03"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 492,
-      "length": 4,
-      "value": "0x04"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 523,
-      "length": 4,
-      "value": "0x05"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 553,
-      "length": 4,
-      "value": "0x06"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 592,
-      "length": 4,
-      "value": "0x07"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 633,
+      "offset": 643,
       "length": 4,
       "value": "0x08"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 206,
+      "offset": 216,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 283,
+      "offset": 293,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 333,
+      "offset": 343,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 439,
+      "offset": 449,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 541,
+      "offset": 551,
       "length": 4,
       "value": "0x05"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 701,
+      "offset": 711,
       "length": 4,
       "value": "0x06"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 879,
+      "offset": 889,
       "length": 4,
       "value": "0x0A"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 955,
+      "offset": 965,
       "length": 3,
       "value": "0x7"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 1039,
+      "offset": 1049,
       "length": 4,
       "value": "0x08"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 1109,
-      "length": 4,
-      "value": "0x09"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 206,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 283,
-      "length": 4,
-      "value": "0x01"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 333,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 439,
-      "length": 4,
-      "value": "0x03"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 541,
-      "length": 4,
-      "value": "0x05"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 701,
-      "length": 4,
-      "value": "0x06"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 879,
-      "length": 4,
-      "value": "0x0A"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 955,
-      "length": 3,
-      "value": "0x7"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1039,
-      "length": 4,
-      "value": "0x08"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1109,
-      "length": 4,
-      "value": "0x09"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 206,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 283,
-      "length": 4,
-      "value": "0x01"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 333,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 439,
-      "length": 4,
-      "value": "0x03"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 541,
-      "length": 4,
-      "value": "0x05"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 701,
-      "length": 4,
-      "value": "0x06"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 879,
-      "length": 4,
-      "value": "0x0A"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 955,
-      "length": 3,
-      "value": "0x7"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1039,
-      "length": 4,
-      "value": "0x08"
-    },
-    {
-      "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/Model\/TedeeLockOperationResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1109,
+      "offset": 1119,
       "length": 4,
       "value": "0x09"
     },
@@ -10105,14 +10248,14 @@
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/TedeeLockManager+SecureConnection.swift",
       "kind": "Array",
-      "offset": 5313,
+      "offset": 5231,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mateuszsamosij\/Projects\/Tedee\/tedee-iOS-lock-sdk\/TedeeLock\/Sources\/TedeeLock\/TedeeLockManager+UnsecureConnection.swift",
       "kind": "Array",
-      "offset": 9554,
+      "offset": 9505,
       "length": 2,
       "value": "[]"
     },
